@@ -1,4 +1,5 @@
 #coding=utf-8
+#来源：https://coding.net/u/niuoh/p/zhihu_cmd/git/tree/master?public=true
 import requests,re,sys,json,os
 def strip_tags(html):
     dr = re.compile(r'<[^>]+>',re.S)
